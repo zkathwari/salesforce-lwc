@@ -1,0 +1,12 @@
+li:not(:first-child) {
+    border-top: solid 1px #ecebea;
+    margin-bottom: 5px;
+}
+
+.description-text {
+    word-break: break-all;
+}
+
+.checkbox-width {
+    width: 65px;
+}
