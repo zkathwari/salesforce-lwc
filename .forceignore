@@ -8,5 +8,7 @@ package.xml
 **/jsconfig.json
 **/.eslintrc.json
 
+.DS_Store
+
 # LWC Jest
 **/__tests__/**
