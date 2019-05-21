@@ -24,7 +24,7 @@ export default class CheckList extends LightningElement {
     }
 
     addPicklistItemToCheckist(){ 
-        for (let i=0; i < this.dropdownOptions.length; i += 1) {
+        for (let i = 0; i < this.dropdownOptions.length; i += 1) {
             if(this.dropdownOptions[i].value === this.dropdownValue) {
                 console.log('this.dropdownOptions[i].value: ', this.dropdownOptions[i].label);
                 this.description = this.dropdownOptions[i].label;
@@ -36,7 +36,7 @@ export default class CheckList extends LightningElement {
     }
 
     updateChecklist(prop) {
-        for (var i=0; i < this.todos.length; i++) {
+        for (let i = 0; i < this.todos.length; i += 1) {
             if (this.todos[i].id === Number(prop.detail.id)) {
                 this.todos.splice(i, 1);
                 this.todos = [
@@ -60,7 +60,7 @@ export default class CheckList extends LightningElement {
 
         if (islistValid) {
             //check duplicate description
-            for (var i = 0; i < this.todos.length; i++) {
+            for (let i = 0; i < this.todos.length; i += 1) {
                 if (this.todos[i].description === this.description) {
                     islistValid = false;
                     break;

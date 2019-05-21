@@ -1,60 +1,21 @@
 <template>
-        <lightning-card
-            title="Checklist"
-            icon-name="standard:product_consumed"
-        >
-            <div class="slds-m-around_medium">
-                <!-- <div class='row'>
-                    <lightning-textarea 
-                        label="Enter your checklist item:" 
-                        onchange={handleDescriptionChange}
-                        value={description}>
-                    </lightning-textarea>
-                </div> -->
+    <lightning-card title="Checklist" icon-name="standard:product_consumed">
+        <div class="slds-m-around_medium">
+            <!-- Add Picklist(Select dropdown) -->
+            <div class='row'>
+                <!-- <lightning-combobox name="picklist for a checklist" label="Select picklist item:" value={dropdownValue} placeholder="Select Progress"
+                    options={dropdownOptions} onchange={handlePicklistChange}>
+                </lightning-combobox> -->
+       
 
-                <!-- <lightning-button
-                    label="Add item"
-                    variant="brand"
-                    icon-name="utility:add"
-                    title="Add checklist item"
-                    onclick={handleSave}
-                    class="slds-p-vertical_small"
-                ></lightning-button> -->
+                <!-- <lightning-button label="Add picklist item" variant="brand" icon-name="utility:add" title="Add selected picklist item" onclick={addPicklistItemToCheckist}
+                    class="slds-p-vertical_small"></lightning-button> -->
 
-
-        <!-- Add Picklist(Select dropdown) -->
-        <div class='row'>
-            <lightning-combobox
-                name="picklist for a checklist"
-                label="Select picklist item:"
-                value={dropdownValue}
-                placeholder="Select Progress"
-                options={dropdownOptions}
-                onchange={handlePicklistChange} >
-            </lightning-combobox>
-            <!-- <p>Selected value is: {dropdownValue}</p> -->
-
-            <lightning-button
-                    label="Add picklist item"
-                    variant="brand"
-                    icon-name="utility:add"
-                    title="Add selected picklist item"
-                    onclick={addPicklistItemToCheckist}
-                    class="slds-p-vertical_small"
-            ></lightning-button>
-
-        </div>
-                
-
-                
-  
-                <c-todo-list todos={todos} oncheckboxchange={updateChecklist}></c-todo-list>
             </div>
-    
-            <!-- <c-view-source source="lwc/apiSetterGetter" slot="footer">
-                Parent-to-child communication. Pass data to a child component using
-                a public (@api) property implemented with a setter and getter, and
-                apply some logic to the data as the property is being set.
-            </c-view-source> -->
-        </lightning-card>
-    </template>
+
+            <!-- Render todo items -->
+            <!-- <c-todo-list todos={todos} oncheckboxchange={updateChecklist}></c-todo-list> -->
+            <c-fetch-wire-data></c-fetch-wire-data>
+        </div>
+    </lightning-card>
+</template>

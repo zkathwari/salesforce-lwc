@@ -1,0 +1,32 @@
+<template>
+    <template for:each={recordId} for:item="item">
+        <lightning-card key={item.Id}>
+            <lightning-record-form 
+                record-id={item.Id} 
+                object-api-name={objectApiName} 
+                layout-type="Compact" 
+                fields={fields} 
+                mode="View">
+            </lightning-record-form>
+        </lightning-card>
+    </template>
+    <lightning-card>
+        <template if:false={isVisible}>
+            <lightning-record-form 
+                object-api-name={objectApiName} 
+                fields={createItemfields} 
+                onsuccess={handleCreateChecklistItem}>
+            </lightning-record-form>
+        </template>
+        <template if:true={isVisible}>
+            <lightning-button 
+                label="Create item" 
+                variant="brand" 
+                icon-name="utility:add" 
+                title="Add checklist item" 
+                onclick={handleCreateItemVisibility}
+                class="slds-p-vertical_small">
+            </lightning-button>
+        </template>
+    </lightning-card>
+</template>
