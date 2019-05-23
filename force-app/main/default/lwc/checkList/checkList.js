@@ -1,91 +1,175 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, wire, track, api } from 'lwc';
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
-export default class CheckList extends LightningElement {
-    lastTodoId = 0;
+import CHECKLIST_OBJECT from '@salesforce/schema/Checklist2__c';
+import CHECKLIST_TITLE_OBJECT from '@salesforce/schema/ChecklistTitle__c';
 
-    //@track title='Checklist';
+import PICKLIST_1 from '@salesforce/schema/Checklist2__c.Picklist1__c';
+import DESCRIPTION_FIELD from '@salesforce/schema/Checklist2__c.description__c';
+import STATUS_FIELD from '@salesforce/schema/Checklist2__c.status__c';
+import NAME_FIELD from '@salesforce/schema/Checklist2__c.Name';
+import TITLE_NAME_FIELD from '@salesforce/schema/ChecklistTitle__c.Name';
 
-    @track todos = [];
+import { getRecord, getFieldValue } from 'lightning/uiRecordApi';
 
-    @track description = undefined;
+import getRecordIds from '@salesforce/apex/FetchMultipleItems.search';
+import getUserDetails from '@salesforce/apex/UserInfoDetails.getUserDetails';
+import getUserId from '@salesforce/apex/UserInfoDetails.getUserId';
 
-    @track priority = false;
+const TITLE_RECORD_ID = 'a026D000001FOsPQAW';
+const SYSTEM_ADMIN = 'System Administrator';
+const TITLE_UPDATE_SUCCESS = 'Title updated successfully';
+const CHECKLIST_CREATED_SUCCESS ="Checklist item created successfully";
+const EMPTY_CHECKLIST_INFO = 'Empty checklist, Please add items';
+const ERROR_MESSAGE = 'Something went wrong';
+export default class Checklist extends LightningElement {
+    @track titleRecord;
+    @track title = 'Checklist';//default
 
-    @track dropdownValue = 'new';
+    _titleChanged;
 
-    // setTitle(item) {
-    //     this.title = item.detail.val;
-    //     console.log('title value set detail', item.detail.val)
-    // }
+    @track objectInfo;
 
-    get dropdownOptions() {
-        return [
-            { label: 'New wizard in the loom', value: 'new' },
-            { label: 'Wizard In Progress', value: 'inProgress' },
-            { label: 'Wizard did Finished', value: 'finished' },
-        ];
+    objectTitleInfo;
+
+    @track isVisible = true;
+
+    ChecklistObjectApiName = CHECKLIST_OBJECT.objectApiName;
+    titleObjectApi = CHECKLIST_TITLE_OBJECT.objectApiName;
+
+    createChecklistItemfields = [DESCRIPTION_FIELD, STATUS_FIELD, PICKLIST_1, NAME_FIELD];
+
+    titleField = [TITLE_NAME_FIELD]
+
+    renderChecklistfields = [DESCRIPTION_FIELD, STATUS_FIELD, PICKLIST_1];
+
+    @track error;
+
+    @track isAdminUser;
+
+    @track userError;
+
+    recordOwnerId = [];
+    userOwnerId;
+
+    @track filteredRecords;
+    @track areRecordsThere = false;
+
+    renderCount = 0;//guard wasted render
+
+    set changedTitle(value) {
+        this._titleChanged = value;
     }
 
-    handlePicklistChange(event) {
-        this.dropdownValue = event.detail.value;
+    get changedTitle() {
+        return this._titleChanged;
     }
 
-    addPicklistItemToCheckist(){ 
-        for (let i = 0; i < this.dropdownOptions.length; i += 1) {
-            if(this.dropdownOptions[i].value === this.dropdownValue) {
-                console.log('this.dropdownOptions[i].value: ', this.dropdownOptions[i].label);
-                this.description = this.dropdownOptions[i].label;
-                break;
-            } 
-        }
+    @wire(getRecord, {
+        recordId: TITLE_RECORD_ID,
+        fields: [TITLE_NAME_FIELD]
+    })
+    titleRecord;
 
-        this.handleSave() 
-    }
+    renderedCallback() {
+        let currentRecords = [];
+        this.renderCount += 1;
 
-    updateChecklist(prop) {
-        for (let i = 0; i < this.todos.length; i += 1) {
-            if (this.todos[i].id === Number(prop.detail.id)) {
-                this.todos.splice(i, 1);
-                this.todos = [
-                    ...this.todos,
-                    {
-                        id: prop.detail.id, 
-                        description: prop.detail.description, 
-                        priority: prop.detail.isChecked
-                    }
-                ]
-                this.todos.sort((a, b) => { 
-                    return a.id - b.id;
+        if (this.renderCount < 3) {
+            if (this.titleRecord.data) {
+                this.title = getFieldValue(this.titleRecord.data, TITLE_NAME_FIELD);
+            } else {
+                this.title = 'Checklist';
+            }
+
+            if (this.recordOwnerId.length > 0 && typeof this.userOwnerId === 'string') {
+                currentRecords = this.recordOwnerId.filter((selectedOwnerId) => {
+                    return selectedOwnerId.OwnerId === this.userOwnerId;
                 });
-                break;
-            }
-        }   
-    }
-
-    handleSave() {
-        let islistValid = this.description !== undefined;
-
-        if (islistValid) {
-            //check duplicate description
-            for (let i = 0; i < this.todos.length; i += 1) {
-                if (this.todos[i].description === this.description) {
-                    islistValid = false;
-                    break;
-                }
-            }
-            if(this.description !== '') {
-                if(islistValid) {
-                    this.lastTodoId = this.lastTodoId + 1;
-                    this.todos = [
-                        ...this.todos,
-                        {
-                            id: this.lastTodoId,
-                            description: this.description,
-                            priority: this.priority
-                        }
-                    ]
-                }
+                this.areRecordsThere = currentRecords.length > 0 ? true : false;
+                this.filteredRecords = currentRecords;
             }
         }
+    }
+
+    @wire(getUserId)
+    wiredUserId({ data, error }) {
+        if (data) {
+            this.userOwnerId = data.Id;
+        } else if (error) {
+            console.log('user error', error);
+            this.showErrorToast();
+        }
+    }
+
+    @wire(getUserDetails)
+    wiredUser({ error, data }) {
+        if (data) {
+            this.isAdminUser = data.Name === SYSTEM_ADMIN;
+        } else if (error) {
+            console.log(error);
+            this.showErrorToast();
+        }
+    }
+
+    @wire(getRecordIds)
+    wiredAccounts({ error, data }) {
+        if (data) {
+            this.recordOwnerId = data;
+            this.error = undefined;
+            this.recordOwnerId.length === 0 && this.showInfoToast();
+        } else if (error) {
+            this.error = error;
+            this.recordOwnerId = undefined;
+            this.showErrorToast();
+        }
+    }
+
+    showErrorToast() {
+        const evt = new ShowToastEvent({
+            title: 'Application Error',
+            message: ERROR_MESSAGE,
+            variant: 'error',
+            mode: 'dismissable'
+        });
+        this.dispatchEvent(evt);
+    }
+
+    showInfoToast() {
+        const evt = new ShowToastEvent({
+            title: 'Application Info',
+            message: EMPTY_CHECKLIST_INFO,
+            variant: 'info',
+            mode: 'dismissable'
+        });
+        this.dispatchEvent(evt);
+    }
+
+    showSuccessToast({ event, title }) {
+        const evt = new ShowToastEvent({
+            title,
+            message: "Record ID: " + event.detail.id,
+            variant: "success",
+            mode: 'dismissable'
+        });
+        this.dispatchEvent(evt);
+    }
+
+    handleCreateItemVisibility() {
+        this.isVisible = !this.isVisible;
+    }
+
+    handleSuccessTitleChange(event) {
+        this.showSuccessToast({ event, title: TITLE_UPDATE_SUCCESS })
+        this.title = this._titleChanged;
+    }
+
+    handleTitleChange(event) {
+        this._titleChanged = event.target.value;
+    }
+
+    handleCreateChecklistItem(event) {
+        this.showSuccessToast({ event, title: CHECKLIST_CREATED_SUCCESS });
+        this.isVisible = true;
     }
 }

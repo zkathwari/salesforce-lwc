@@ -295,14 +295,14 @@
     [
         "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/apiFacade/apiFacade.html",
         {
-            "state": "u",
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/apiFacade/apiFacade.html",
             "isDirectory": false,
+            "size": 1973,
+            "modifiedTime": 1558639111391,
+            "changeTime": 1558639111391,
+            "contentHash": "1c2657bf4254ac388f382f9c03d5b6994d7bbfa1",
             "isMetadataFile": false,
-            "size": 2368,
-            "modifiedTime": 1558638858328,
-            "changeTime": 1558638858328,
-            "contentHash": "5872914b3c6e960ddc238db9182319ed77e2ad4e"
+            "state": "u"
         }
     ],
     [
@@ -312,10 +312,10 @@
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/apiFacade/apiFacade.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4826,
-            "modifiedTime": 1558638839648,
-            "changeTime": 1558638839648,
-            "contentHash": "08c81dc59e6ebc741c0d7d9495917d4ed17b747c"
+            "size": 5167,
+            "modifiedTime": 1558640266773,
+            "changeTime": 1558640266773,
+            "contentHash": "e53eae4e2c17385cb9834640ccb4e072d8614e52"
         }
     ],
     [
