@@ -3,6 +3,8 @@ import { LightningElement, track } from 'lwc';
 export default class CheckList extends LightningElement {
     lastTodoId = 0;
 
+    //@track title='Checklist';
+
     @track todos = [];
 
     @track description = undefined;
@@ -10,6 +12,11 @@ export default class CheckList extends LightningElement {
     @track priority = false;
 
     @track dropdownValue = 'new';
+
+    // setTitle(item) {
+    //     this.title = item.detail.val;
+    //     console.log('title value set detail', item.detail.val)
+    // }
 
     get dropdownOptions() {
         return [
