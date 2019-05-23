@@ -1,4 +1,4 @@
-import { LightningElement, wire, track, api } from 'lwc';
+import { LightningElement, wire, track } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 import CHECKLIST_OBJECT from '@salesforce/schema/Checklist2__c';

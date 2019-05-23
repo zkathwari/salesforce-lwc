@@ -61,15 +61,15 @@
     [
         "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc",
         {
-            "state": "u",
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1558640563341,
             "changeTime": 1558640563341,
-            "isWorkspace": false,
-            "contentHash": "54438785afba61ef6c8336228527a12959b9b9e1"
+            "contentHash": "54438785afba61ef6c8336228527a12959b9b9e1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -89,15 +89,15 @@
     [
         "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.html",
         {
-            "state": "u",
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1973,
             "modifiedTime": 1558640578518,
             "changeTime": 1558640578519,
-            "isWorkspace": false,
-            "contentHash": "1c2657bf4254ac388f382f9c03d5b6994d7bbfa1"
+            "contentHash": "1c2657bf4254ac388f382f9c03d5b6994d7bbfa1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -107,11 +107,11 @@
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 5167,
-            "modifiedTime": 1558640686637,
-            "changeTime": 1558640686637,
+            "size": 5162,
+            "modifiedTime": 1558641212606,
+            "changeTime": 1558641212606,
             "isWorkspace": false,
-            "contentHash": "a4eb5275e2fcaa41a06c25c8c9ea4019e8f2c74a"
+            "contentHash": "073b6176b64b09b97be2de3236b2b049789cc508"
         }
     ],
     [
