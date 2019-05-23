@@ -16,6 +16,7 @@ import getRecordIds from '@salesforce/apex/FetchMultipleItems.search';
 import getUserDetails from '@salesforce/apex/UserInfoDetails.getUserDetails';
 import getUserId from '@salesforce/apex/UserInfoDetails.getUserId';
 
+const TITLE_RECORD_ID = 'a026D000001FOsPQAW';
 export default class ApiFacade extends LightningElement {
     @track titleRecord;
     @track title = 'Checklist';//default
@@ -60,7 +61,7 @@ export default class ApiFacade extends LightningElement {
     }
 
     @wire(getRecord, {
-        recordId: 'a026D000001FOsPQAW',
+        recordId: TITLE_RECORD_ID,
         fields: [TITLE_NAME_FIELD]
     })
     titleRecord;
@@ -91,7 +92,8 @@ export default class ApiFacade extends LightningElement {
         if (data) {
             this.userOwnerId = data.Id;
         } else if (error) {
-            console.log('user error, id', error);
+            console.log('user error', error);
+            this.showErrorToast();
         }
     }
 
@@ -100,7 +102,8 @@ export default class ApiFacade extends LightningElement {
         if (data) {
             this.isAdminUser = data.Name === 'System Administrator';
         } else if (error) {
-            console.log(error)
+            console.log(error);
+            this.showErrorToast();
         }
     }
 
