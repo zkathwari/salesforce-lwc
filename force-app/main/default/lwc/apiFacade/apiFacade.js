@@ -17,6 +17,11 @@ import getUserDetails from '@salesforce/apex/UserInfoDetails.getUserDetails';
 import getUserId from '@salesforce/apex/UserInfoDetails.getUserId';
 
 const TITLE_RECORD_ID = 'a026D000001FOsPQAW';
+const SYSTEM_ADMIN = 'System Administrator';
+const TITLE_UPDATE_SUCCESS = 'Title updated successfully';
+const CHECKLIST_CREATED_SUCCESS ="Checklist item created successfully";
+const EMPTY_CHECKLIST_INFO = 'Empty checklist, Please add items';
+const ERROR_MESSAGE = 'Something went wrong';
 export default class ApiFacade extends LightningElement {
     @track titleRecord;
     @track title = 'Checklist';//default
@@ -100,7 +105,7 @@ export default class ApiFacade extends LightningElement {
     @wire(getUserDetails)
     wiredUser({ error, data }) {
         if (data) {
-            this.isAdminUser = data.Name === 'System Administrator';
+            this.isAdminUser = data.Name === SYSTEM_ADMIN;
         } else if (error) {
             console.log(error);
             this.showErrorToast();
@@ -123,7 +128,7 @@ export default class ApiFacade extends LightningElement {
     showErrorToast() {
         const evt = new ShowToastEvent({
             title: 'Application Error',
-            message: 'Something went wrong ',
+            message: ERROR_MESSAGE,
             variant: 'error',
             mode: 'dismissable'
         });
@@ -133,7 +138,7 @@ export default class ApiFacade extends LightningElement {
     showInfoToast() {
         const evt = new ShowToastEvent({
             title: 'Application Info',
-            message: 'Empty checklist, Please add items',
+            message: EMPTY_CHECKLIST_INFO,
             variant: 'info',
             mode: 'dismissable'
         });
@@ -155,7 +160,7 @@ export default class ApiFacade extends LightningElement {
     }
 
     handleSuccessTitleChange(event) {
-        this.showSuccessToast({ event, title: 'Title updated successfully' })
+        this.showSuccessToast({ event, title: TITLE_UPDATE_SUCCESS })
         this.title = this._titleChanged;
     }
 
@@ -164,7 +169,7 @@ export default class ApiFacade extends LightningElement {
     }
 
     handleCreateChecklistItem(event) {
-        this.showSuccessToast({ event, title: "Checklist item created successfully" });
+        this.showSuccessToast({ event, title: CHECKLIST_CREATED_SUCCESS });
         this.isVisible = true;
     }
 }
