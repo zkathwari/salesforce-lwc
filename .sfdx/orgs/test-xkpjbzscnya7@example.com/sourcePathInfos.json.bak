@@ -1,0 +1,207 @@
+[
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558675208143,
+            "changeTime": 1558675208143,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558675208143,
+            "changeTime": 1558675208143,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1558675208144,
+            "changeTime": 1558675208144,
+            "contentHash": "6015fab735a862c65dd508504ec382c45c9ec95e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558675208144,
+            "changeTime": 1558675208144,
+            "contentHash": "54438785afba61ef6c8336228527a12959b9b9e1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1558675208145,
+            "changeTime": 1558675208145,
+            "contentHash": "0084ff31e13927eaaa738bb09b84e6525c0d3746",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.html",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.html",
+            "isDirectory": false,
+            "size": 2010,
+            "modifiedTime": 1558679247667,
+            "changeTime": 1558679247667,
+            "contentHash": "5aee403239a4cc9742ac1e9e3fb314d23a4db390",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.js",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.js",
+            "isDirectory": false,
+            "size": 5162,
+            "modifiedTime": 1558954491028,
+            "changeTime": 1558954491028,
+            "contentHash": "073b6176b64b09b97be2de3236b2b049789cc508",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.js-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/lwc/checkList/checkList.js-meta.xml",
+            "isDirectory": false,
+            "size": 438,
+            "modifiedTime": 1558677346237,
+            "changeTime": 1558677346237,
+            "contentHash": "969638aa1e48e36bc3739f3a6c8cdd3987b372b5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1558675208145,
+            "changeTime": 1558348810509,
+            "contentHash": "d1870159c5518f364be1f2bfddb0a4363b8881e9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1558675208144,
+            "changeTime": 1558675208144,
+            "contentHash": "6b38538d7c1766596c3c4c5ba4d0445fc6a43cfa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/FetchMultipleItems.cls",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/FetchMultipleItems.cls",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1558955989945,
+            "changeTime": 1558955989945,
+            "contentHash": "61f0e93cccd5592cd60988d1f5d9bb66e96e42a8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/FetchMultipleItems.cls-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/FetchMultipleItems.cls-meta.xml",
+            "isDirectory": false,
+            "size": 196,
+            "modifiedTime": 1558675208144,
+            "changeTime": 1558675208144,
+            "contentHash": "f3ed4dc9ab142d97cd22edeed413c80f0db87c48",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/UserInfoDetails.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/UserInfoDetails.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 392,
+            "modifiedTime": 1558956073715,
+            "changeTime": 1558956073715,
+            "isWorkspace": false,
+            "contentHash": "fb663e64c30a5027ea0cae8279bfed526dfb5d52"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/UserInfoDetails.cls-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/GCPTask/salesforce-lwc/force-app/main/default/classes/UserInfoDetails.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1558675208144,
+            "changeTime": 1558675208144,
+            "contentHash": "62084ca3913fa840e36d4ca33aff27c2225dff08",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ]
+]
