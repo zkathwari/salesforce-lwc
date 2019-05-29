@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picklist2__c</fullName>
+    <description>test picklist</description>
+    <externalId>false</externalId>
+    <label>Picklist2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto populate</fullName>
+                <default>false</default>
+                <label>Auto populate</label>
+            </value>
+            <value>
+                <fullName>Go daddy</fullName>
+                <default>false</default>
+                <label>Go daddy</label>
+            </value>
+            <value>
+                <fullName>Go disco</fullName>
+                <default>false</default>
+                <label>Go disco</label>
+            </value>
+            <value>
+                <fullName>Go golang</fullName>
+                <default>false</default>
+                <label>Go golang</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

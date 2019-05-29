@@ -34,13 +34,12 @@
         {
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default",
             "isDirectory": true,
-            "size": 192,
-            "modifiedTime": 1558436677616,
-            "changeTime": 1558436677616,
-            "contentHash": "7519d87ba8087047829ba514f9315b16468633cb",
+            "size": 416,
+            "modifiedTime": 1558643959364,
+            "changeTime": 1558643959364,
+            "contentHash": "88c86f422c33f85675c86c14dd085f55fbb80290",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "state": "u"
         }
     ],
     [
@@ -103,15 +102,15 @@
     [
         "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.js",
         {
-            "state": "u",
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5162,
             "modifiedTime": 1558641212606,
             "changeTime": 1558641212606,
-            "isWorkspace": false,
-            "contentHash": "073b6176b64b09b97be2de3236b2b049789cc508"
+            "contentHash": "073b6176b64b09b97be2de3236b2b049789cc508",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -120,7 +119,7 @@
             "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/lwc/checkList/checkList.js-meta.xml",
             "isDirectory": false,
             "size": 388,
-            "modifiedTime": 1558641031545,
+            "modifiedTime": 1558643921357,
             "changeTime": 1558420364672,
             "contentHash": "b826e19fe7bc219685dc46c06cc175e95890354c",
             "isMetadataFile": true,
@@ -204,6 +203,552 @@
             "changeTime": 1558534149108,
             "contentHash": "62084ca3913fa840e36d4ca33aff27c2225dff08",
             "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/labels/CustomLabels.labels-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/labels/CustomLabels.labels-meta.xml",
+            "isDirectory": false,
+            "size": 103,
+            "modifiedTime": 1558643959313,
+            "changeTime": 1558643959313,
+            "contentHash": "d523f4753539e51b0dcfc6e5771a30e255c81901",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/customPermissions/AllowOnePerUser.customPermission-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/customPermissions/AllowOnePerUser.customPermission-meta.xml",
+            "isDirectory": false,
+            "size": 245,
+            "modifiedTime": 1558643959315,
+            "changeTime": 1558643959315,
+            "contentHash": "9b42f687071320bd9e6a79b9ed5898b74c51d155",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/ChecklistTitle__c.object-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/ChecklistTitle__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2155,
+            "modifiedTime": 1558643959323,
+            "changeTime": 1558643959323,
+            "contentHash": "83968df236debabc8afea0acc4f494d2e7e73ada",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/fields/ChecklistTitleFeild__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/fields/ChecklistTitleFeild__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 443,
+            "modifiedTime": 1558643959323,
+            "changeTime": 1558643959323,
+            "contentHash": "6e1f018789153a7875056fd2d6a7b31447954189",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews/All.listView-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 461,
+            "modifiedTime": 1558643959324,
+            "changeTime": 1558643959324,
+            "contentHash": "c89504ab2b500d9b50dfc434d68285d21d95f330",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews/ChecklistTitleList.listView-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews/ChecklistTitleList.listView-meta.xml",
+            "isDirectory": false,
+            "size": 399,
+            "modifiedTime": 1558643959325,
+            "changeTime": 1558643959325,
+            "contentHash": "f992785212b007b22012567186175e48f3a2eb01",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/recordTypes/ChecklistTitleName.recordType-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/recordTypes/ChecklistTitleName.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 321,
+            "modifiedTime": 1558643959325,
+            "changeTime": 1558643959325,
+            "contentHash": "2d008ea1321ff1eaab35791b758eacfc840ef00f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/Checklist2__c.object-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/Checklist2__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2113,
+            "modifiedTime": 1558643959342,
+            "changeTime": 1558643959342,
+            "contentHash": "0e2c2f499f07d303ec495e87d9cc8e3e029e9442",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fieldSets/Checklist2items.fieldSet-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fieldSets/Checklist2items.fieldSet-meta.xml",
+            "isDirectory": false,
+            "size": 1910,
+            "modifiedTime": 1558643959343,
+            "changeTime": 1558643959343,
+            "contentHash": "4306acc2785683e372ab514882b498bf9e125e12",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/Picklist1__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/Picklist1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 1310,
+            "modifiedTime": 1558643959343,
+            "changeTime": 1558643959343,
+            "contentHash": "a0e56bdd425e64ec8cc154ea2b7b9484a7d02211",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/Picklist2__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/Picklist2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 1208,
+            "modifiedTime": 1558643959343,
+            "changeTime": 1558643959343,
+            "contentHash": "abb2be9a958a536641e72eb1da890f03fb43d578",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/description__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/description__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 551,
+            "modifiedTime": 1558643959344,
+            "changeTime": 1558643959344,
+            "contentHash": "7e5b9afd76e4c76a464aef9e2b3da21d7b88e566",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/status__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields/status__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 433,
+            "modifiedTime": 1558643959344,
+            "changeTime": 1558643959344,
+            "contentHash": "4aa99ab34f4d60bf17bb550da25d137ff43ec9e9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews/All.listView-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 444,
+            "modifiedTime": 1558643959345,
+            "changeTime": 1558643959345,
+            "contentHash": "d10be5ee79b10be45742d81822dba857460d204c",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews/checklist2view.listView-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews/checklist2view.listView-meta.xml",
+            "isDirectory": false,
+            "size": 538,
+            "modifiedTime": 1558643959346,
+            "changeTime": 1558643959346,
+            "contentHash": "ff0c016be3db283b3d3e1deaf6435209c5e9ab0b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes/ChecklistRecords.recordType-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes/ChecklistRecords.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 1390,
+            "modifiedTime": 1558643959347,
+            "changeTime": 1558643959347,
+            "contentHash": "9eb570cda716ab8cbf1eda57d28a823a75e8a3ab",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes/ChecklistTitle.recordType-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes/ChecklistTitle.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 1072,
+            "modifiedTime": 1558643959348,
+            "changeTime": 1558643959348,
+            "contentHash": "6b1d4c597bf0cfda71466a393563dbd50ca84bf2",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts/Checklist2__c-Checklist2 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts/Checklist2__c-Checklist2 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 2510,
+            "modifiedTime": 1558643959355,
+            "changeTime": 1558643959355,
+            "contentHash": "d52383cd6681784c09ba28853f4d0954a4b9700a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts/ChecklistTitle__c-ChecklistTitle Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts/ChecklistTitle__c-ChecklistTitle Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 2100,
+            "modifiedTime": 1558643959358,
+            "changeTime": 1558643959358,
+            "contentHash": "e9193d658f411aa93cf8b029cb96424e638d25ce",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/flexipages/Home_Page_Default.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/flexipages/Home_Page_Default.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 1096,
+            "modifiedTime": 1558643959359,
+            "changeTime": 1558643959359,
+            "contentHash": "dee30bc79a9a0251a73586e4121bcc98e35b989e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs/Checklist2__c.tab-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs/Checklist2__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 278,
+            "modifiedTime": 1558643959360,
+            "changeTime": 1558643959360,
+            "contentHash": "18ecfd7ebb4c1afa54eed5b574572ffabcb2474b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs/ChecklistTitle__c.tab-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs/ChecklistTitle__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 288,
+            "modifiedTime": 1558643959361,
+            "changeTime": 1558643959361,
+            "contentHash": "02b985698c3b0f2e400c64287e9b8528bf647e64",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 6910,
+            "modifiedTime": 1558643959366,
+            "changeTime": 1558643959366,
+            "contentHash": "cd8779e79fff526f42896d97f8894b836547b38e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 6572,
+            "modifiedTime": 1558643959369,
+            "changeTime": 1558643959369,
+            "contentHash": "32f083b8356b0a258d42d5df9d88b7528c385d65",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 6572,
+            "modifiedTime": 1558643959373,
+            "changeTime": 1558643959373,
+            "contentHash": "32f083b8356b0a258d42d5df9d88b7528c385d65",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 21631,
+            "modifiedTime": 1558643959385,
+            "changeTime": 1558643959385,
+            "contentHash": "1349cdaf3ef10b80d917a23d8448566ef432c59f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/labels",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/labels",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959313,
+            "changeTime": 1558643959313,
+            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/customPermissions",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/customPermissions",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959315,
+            "changeTime": 1558643959315,
+            "contentHash": "60a4a0a833fe400301a2c933aaa24951a81667a4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1558643959325,
+            "changeTime": 1558643959325,
+            "contentHash": "7e0e9dbb035dfb7641edcc0d81ce13e4fa209e49",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959341,
+            "changeTime": 1558643959341,
+            "contentHash": "dc4776ce47a5b7bcd5b5d6edb4f8ea00de27e217",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/fields",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/fields",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959323,
+            "changeTime": 1558643959323,
+            "contentHash": "c13f51c863a4aa547ee1d46ea9d1a306d92cd9dc",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/listViews",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959325,
+            "changeTime": 1558643959325,
+            "contentHash": "8cdb6bfad96352b8a0c9b07b96920b6e8bda4978",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/recordTypes",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/ChecklistTitle__c/recordTypes",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959325,
+            "changeTime": 1558643959325,
+            "contentHash": "ee00c9066f3cfe9f3929163b100ed2d8e32f75a4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c",
+            "isDirectory": true,
+            "size": 224,
+            "modifiedTime": 1558643959347,
+            "changeTime": 1558643959347,
+            "contentHash": "c0129886e3f9a6637ce2c3830829fa7fc94bf6a7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fieldSets",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fieldSets",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959343,
+            "changeTime": 1558643959343,
+            "contentHash": "0ab3af4fdd49ad5462aba8eee2ecf0ac74181729",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/fields",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1558643959344,
+            "changeTime": 1558643959344,
+            "contentHash": "cdb94f2be214bfaef62a02dea741cc49f81d56cf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/listViews",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959346,
+            "changeTime": 1558643959346,
+            "contentHash": "83d02940d67ebc7613d2a5a5b35f7b67c14c0243",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/objects/Checklist2__c/recordTypes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959348,
+            "changeTime": 1558643959348,
+            "contentHash": "4abdee0a59ff3e8417aa2ba9589e0686464b39c3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959358,
+            "changeTime": 1558643959358,
+            "contentHash": "cc76bb8d51dd34c79a4fc97c1898ed29e9dc1316",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1558643959359,
+            "changeTime": 1558643959359,
+            "contentHash": "8db0c01f640acc7ba1b555b8d1a44b12fe1de7dd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/tabs",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1558643959361,
+            "changeTime": 1558643959361,
+            "contentHash": "3110a6da07db45ee6f475ef51a87108f1e7b0589",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/zuhaib.kathwari/Documents/PERSONAL-PROJECTS/lightening-web-component/lightening-web-component/lightening-web-components/LightningWebComponents/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 224,
+            "modifiedTime": 1558643959394,
+            "changeTime": 1558643959394,
+            "contentHash": "8d0db7e2f48818100405d96e734307089780a3c6",
+            "isMetadataFile": false,
             "state": "u"
         }
     ]
